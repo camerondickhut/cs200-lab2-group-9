@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>80</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Warehouse
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>280</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Figurine
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>280</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Case
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>550</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Order
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>550</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Client
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>550</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Shipment
+--
+
+bg=white
+fg=black
+fontsize=18</panel_attributes>
+    <additional_attributes />
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>160</y>
+      <w>40</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=*
+fontsize=16</panel_attributes>
+    <additional_attributes>20;20;20;120</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>310</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..*
+fontsize=16</panel_attributes>
+    <additional_attributes>140;20;20;20</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>360</y>
+      <w>200</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=*
+fontsize=16</panel_attributes>
+    <additional_attributes>20;190;180;20</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>360</y>
+      <w>40</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=*
+fontsize=16</panel_attributes>
+    <additional_attributes>20;190;20;20</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>580</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=*
+m2=1
+fontsize=16</panel_attributes>
+    <additional_attributes>20;20;180;20</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>580</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m1=*
+m2=1
+fontsize=16</panel_attributes>
+    <additional_attributes>140;20;20;20</additional_attributes>
+  </element>
+</diagram>
